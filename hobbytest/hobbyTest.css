@@ -1,0 +1,56 @@
+body {
+    background-color: #EAEFF4
+}
+
+.home {
+    margin: 2%
+}
+
+.explanation {
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.button {
+    text-align: center;
+}
+
+#test_button {
+    margin-top: 5%;
+    font-size: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 3px 3px gray;
+    color: #5594C5;
+    font-weight: bold;
+    padding: 2%;
+    cursor: pointer;
+}
+
+#test_button:hover {
+    background-color: #5594C5;
+    border: 1px solid #5594C5;
+    color: white;
+}
+
+.rule_image {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.rule_explan {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
